@@ -1,0 +1,29 @@
+.container1 {
+    position: relative;
+}
+
+.text-block1 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    text-align: center;
+    bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+.container2 {
+    position: relative;
+}
+
+.text-block2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    text-align: center;
+    bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
