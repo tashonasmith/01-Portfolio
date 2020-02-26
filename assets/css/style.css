@@ -1,3 +1,161 @@
+.header {
+    display: flex;
+    background-color: #ffffff;
+    align-items: baseline;
+    border-bottom: 2px solid #dddddd
+}
+
+
+.tab {
+    flex: 2;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    margin-left: 205px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    
+}
+
+nav {
+    flex: 3;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777; 
+    margin-left: 500px;
+    margin-right: 205px;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 2px solid #dddddd;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.about {
+    width: 960px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    width: 960px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name {
+    width: 90%;
+    margin-right: 72px;
+}
+
+.name {
+    margin-left: 37px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 90%;
+    margin-right: 72px;
+}
+
+.email {
+    margin-left: 37px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+#message {
+    width: 90%;
+    margin-right: 72px;
+    height: 250px;
+}
+
+.message {
+    margin-left: 37px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: 37px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.portfolio {
+    width: 960px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    flex: 3;
+    line-height: 1.5;
+}
+
+img {
+    flex: 1;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+
+footer {
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    border-top: 5px solid #4aaaa5;
+}
+
 .container1 {
     position: relative;
 }
@@ -11,6 +169,7 @@
     bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-left: 15px;
   }
 
 .container2 {
@@ -26,4 +185,58 @@
     bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+.container3 {
+    position: relative;
+}
+
+.text-block3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    text-align: center;
+    bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+.container4 {
+    position: relative;
+}
+
+.text-block4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    text-align: center;
+    bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+.container5 {
+    position: relative;
+}
+
+.text-block5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    text-align: center;
+    bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+.photos1 {
+    display: flex;
+    flex-wrap: wrap;
 }
